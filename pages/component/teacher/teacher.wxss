@@ -1,0 +1,29 @@
+.boss{
+  display: flex;
+  white-space: nowrap;
+  margin: 20rpx 0;
+}
+.teacher-div{
+  display: inline-block;
+  margin-left: 20rpx;
+  text-align: center;
+  width: 280rpx;
+}
+.teacher-div .teacher-img{
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 120rpx;
+  width: 120rpx;
+}
+.teacher-div .teacher-img image{
+  width: 100%;
+  height: 100%; 
+  border-radius: 50%;
+}
+.teacher-div .teacher-name{
+  font-size: 28rpx;
+}
+.teacher-div .teacher-info{
+  margin-top: 10rpx;
+  font-size: 22rpx;
+}

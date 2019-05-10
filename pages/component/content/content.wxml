@@ -1,0 +1,15 @@
+<view class='div' wx:for="{{contents}}">
+  <view class='title'>
+    <image class='img' src='{{item.src}}'></image>
+    <text class='one'>{{item.title}}</text>
+    <!-- 查看更多 -->
+    <!-- <text class='two'>{{item.more}}</text> -->
+  </view>
+  <view class='info' wx:if='{{item.index == 0}}'>
+      <course></course>
+  </view>
+  <view class='info' wx:elif='{{item.index == 1}}'>
+      <teacher></teacher>
+  </view>
+  
+</view>

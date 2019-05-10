@@ -1,0 +1,13 @@
+<scroll-view scroll-x class='boss' scroll-left="50">
+  <view class='teacher-div' wx:for="{{teacherAll}}">
+    <view class='teacher-img'>
+      <image src='{{item.nikeImg}}'></image>
+    </view>
+    <view class='teacher-name'>
+      <view>{{item.name}}</view>
+    </view>
+    <view class='teacher-info'>
+      <text>{{item.info}}</text>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "com-swiper": "../component/swiper/swiper",
+    "content":"../component/content/content"
+  }
+}

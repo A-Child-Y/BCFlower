@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/works/works",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "BC花派",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor": "#fff",
+    "selectedColor":"#FF6347",
+    "color":"#515151",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"image/index.png",
+        "selectedIconPath":"image/index-selected.png"
+      },
+      {
+        "pagePath": "pages/works/works",
+        "text": "作品",
+        "iconPath": "image/works.png",
+        "selectedIconPath": "image/works-selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "image/me.png",
+        "selectedIconPath": "image/me-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

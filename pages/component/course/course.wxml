@@ -1,0 +1,12 @@
+<view class='course-div' wx:for='{{courseAll}}'>
+  <view class='course-img'><image src='{{item.img}}'></image></view>
+  <view class='course-body'>
+    <view class='course-title'>{{item.title}}</view>
+    <view class='course-info'>
+      <text class='course-one'>￥{{item.discountMoney}}</text>
+      <text class='course-two'>￥{{item.money}}</text>
+      <text class='course-three'>已售：{{item.sold}}</text>
+    </view>
+  </view>
+  
+</view>

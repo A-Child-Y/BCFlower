@@ -1,0 +1,15 @@
+swiper{
+  height: 300rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  margin-top: 40rpx;
+}
+
+swiper-item{
+  text-align: center;
+}
+swiper-item image{
+  border-radius: 20rpx;
+  height: 300rpx;
+  width: 93%;
+}
