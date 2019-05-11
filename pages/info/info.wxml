@@ -1,0 +1,4 @@
+<!--pages/info/info.wxml-->
+<view>
+  <info-template title='{{title}}'></info-template>
+</view>

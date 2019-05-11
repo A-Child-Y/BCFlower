@@ -1,0 +1,12 @@
+Component({
+  properties:{
+    title:{
+      type:String
+    }
+  },
+  methods:{
+    getData:function(){
+      console.log(this.data.phone)
+    }
+  }
+})

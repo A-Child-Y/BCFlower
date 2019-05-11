@@ -1,3 +1,6 @@
+
+const app = getApp()
+
 Component({
   data:{
     courseAll:[
@@ -30,5 +33,13 @@ Component({
         sold: '10'
       }
     ]
+  },
+  methods:{
+    goToNext: function (e) {
+      app.title = e.currentTarget.id
+      wx.navigateTo({
+        url: '../info/info'
+      })
+    }
   }
 })

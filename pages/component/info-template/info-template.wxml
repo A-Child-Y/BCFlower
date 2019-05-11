@@ -1,0 +1,31 @@
+<view class='template-div'>
+  <view class='template-image'>
+    <image src='../../../image/4.jpg'></image>
+  </view>
+  <view class='template-info'>
+      <view class='template-one'>
+        <view class='view-one'>永生花.体验魔术般的花艺</view>
+        <view class='view-two'>
+          <text class='one'>￥3680</text>
+          <text class='two'>￥3180</text>
+          <text class='three'>已售15</text>
+        </view>
+      </view>
+
+      <view class='template-two'>
+          <text>课程介绍</text>
+          <view>当局者迷当局者迷 当局者迷当局者迷当局者迷当局者迷当局者迷</view>
+      </view>
+      <view class='template-three'>
+          <text>教师介绍</text>
+          <view>
+              <view><image src='../../../image/test.jpg'></image></view>
+              <view>
+                <view>Toni</view>
+                <view>中华人民共和国中华人民共和国中华人民共和国</view>
+              </view>
+          </view>
+      </view>
+  </view>
+  <view class='template-bottom'>申请免费体验</view>
+</view>

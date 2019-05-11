@@ -1,4 +1,4 @@
-<view class='course-div' wx:for='{{courseAll}}'>
+<view class='course-div' wx:for='{{courseAll}}' bindtap='goToNext' id="{{item.title}}">
   <view class='course-img'><image src='{{item.img}}'></image></view>
   <view class='course-body'>
     <view class='course-title'>{{item.title}}</view>

@@ -1,0 +1,61 @@
+page{
+  background-color: #f6f6f6;
+}
+
+.template-image{
+  height: 300rpx;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 30rpx;
+}
+.template-image image{
+  width: 100%;
+  height: 100%;
+  border-radius: 30rpx;
+}
+.template-one{
+  height: 100rpx;
+  background-color: #fff;
+  width: 90%;
+  margin: 10rpx auto;
+  border-radius: 30rpx;
+  padding: 25rpx;
+  position: relative;
+}
+.template-one .view-one{
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+  font-size: 30rpx;
+}
+.template-one .view-two{
+  background-color: wheat;
+}
+.template-one .view-two .one{
+  font-size: 30rpx;
+  position: absolute;
+  bottom: 15rpx;
+  left: 20rpx;
+  color: orange;
+}
+.template-one .view-two .two{
+  font-size: 26rpx;
+  position: absolute;
+  bottom: 15rpx;
+  left: 150rpx;
+  color: #707070;
+  text-decoration: line-through;
+}
+.template-one .view-two .three{
+  position: absolute;
+  bottom: 15rpx;
+  font-size: 26rpx;
+  right: 20rpx;
+  color: #707070;
+}
+
+.template-two{
+  margin-top: 30rpx;
+  height: 200rpx;
+  background-color:wheat;
+}
