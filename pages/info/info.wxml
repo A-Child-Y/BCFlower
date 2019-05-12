@@ -1,4 +1,4 @@
 <!--pages/info/info.wxml-->
 <view>
-  <info-template title='{{title}}'></info-template>
+  <info-template item='{{item}}' teacher="{{teacher}}"></info-template>
 </view>

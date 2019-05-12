@@ -1,4 +1,4 @@
-<view class='div' wx:for="{{contents}}">
+<view class='div' wx:for="{{contents}}" wx:key="index">
   <view class='title'>
     <image class='img' src='{{item.src}}'></image>
     <text class='one'>{{item.title}}</text>

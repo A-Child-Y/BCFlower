@@ -27,3 +27,8 @@
   margin-top: 10rpx;
   font-size: 22rpx;
 }
+.teacher-div .teacher-info view{
+  width: 100%;
+  height: 60rpx;
+  white-space:pre-line;
+}

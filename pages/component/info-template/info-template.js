@@ -1,12 +1,10 @@
 Component({
   properties:{
-    title:{
-      type:String
+    item:{
+      type:Object
+    },
+    teacher:{
+      type: Object
     }
   },
-  methods:{
-    getData:function(){
-      console.log(this.data.phone)
-    }
-  }
 })

@@ -1,21 +1,26 @@
+const app = getApp()
+
 Component({
   data:{
     teacherAll:[
       {
         name:'Tony Stark',
         nikeImg:'../../../image/ironMan.png',
-        info:"I am Iron Man"
+        info:"I am Iron Man,I am Iron Man Iron Man"
       },
       {
         name:'Michael Jackson',
         nikeImg:'../../../image/michaelJackson.png',
-        info:'Just beat it, beat it'
+        info:'Just beat it, beat it,Just beat it, beat it'
       },
       {
         name:'Peter Park',
         nikeImg: '../../../image/spiderMan.png',
-        info:'I am Spider Man'
+        info:'I am Spider Man,I am Spider Man'
       }
     ]
+  },
+  created () {
+    app.teacherAll = this.__data__.teacherAll
   }
 })
