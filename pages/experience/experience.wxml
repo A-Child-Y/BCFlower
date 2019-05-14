@@ -1,0 +1,18 @@
+<!--pages/experience/experience.wxml-->
+<form bindsubmit='formSubmit'>
+  <!-- style='background-color:{{showColor? "#" :"#f6f6f6"}}' -->
+  <view id='form'>
+    <view class='form-view'>请输入手机号</view>
+    <input placeholder='手机号' name="phone" class='form-input' type='number'></input>
+    <view class='form-view'>请输入姓名</view>
+    <input placeholder='姓名' name="nikename" class='form-input' type='text'></input>
+
+    <view class='form-msg'>工作人员会在1-3个工作日与您联系，为您安排体验课程</view>
+    <button form-type='submit' hover-class='none'>确定</button>
+  </view>
+</form>
+  <view class='hide' style='background-color:{{showColor? "#000" : "none"}}'></view>
+  <view class=' hide-msg ' style='display:{{show? "" : "none"}}'>
+    <view>{{hide}}</view>
+    <view bindtap='showCode'>确定</view>
+  </view>

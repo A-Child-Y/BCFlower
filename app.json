@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/works/works",
     "pages/me/me",
-    "pages/info/info"
+    "pages/info/info",
+    "pages/experience/experience"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

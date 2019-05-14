@@ -18,21 +18,33 @@ Page({
         item: app.item,
         teacher:app.teacherAll[0]
       })
+      wx.setNavigationBarTitle({
+        title: app.item.title,
+      })
     } else if (app.item.pid == '1') {
         this.setData({
           item: app.item,
           teacher: app.teacherAll[1]
+        })
+        wx.setNavigationBarTitle({
+          title: app.item.title,
         })
     } else if (app.item.pid == '2') {
         this.setData({
           item: app.item,
           teacher: app.teacherAll[2]
         })
+        wx.setNavigationBarTitle({
+          title: app.item.title,
+        })
     } else if (app.item.pid == '3') {
         this.setData({
           item: app.item,
           teacher: app.teacherAll[0]
       })
+        wx.setNavigationBarTitle({
+          title: app.item.title,
+        })
     }
   },
 

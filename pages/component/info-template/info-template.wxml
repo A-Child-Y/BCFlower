@@ -24,10 +24,10 @@
         </view>
         <view class='three-teacher'>
           <view>{{teacher.name}}</view>
-          <view>{{teacher.info}}</view>
+          <view>{{teacher.detail}}</view>
         </view>
       </view>
     </view>
   </view>
-  <view class='template-bottom'>申请免费体验</view>
+  <view bindtap='nextPage' class='template-bottom' id="{{item.title}}">申请免费体验</view>
 </view>
