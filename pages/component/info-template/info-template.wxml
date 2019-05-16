@@ -1,6 +1,6 @@
 <view class='template-div'>
   <view class='template-image'>
-    <image src='{{item.img}}'></image>
+    <image mode='aspectFill' src='{{item.img}}'></image>
   </view>
   <view class='template-info'>
     <view class='template-one'>
@@ -20,7 +20,7 @@
       <text>教师介绍</text>
       <view class='three'>
         <view class='three-img'>
-          <image src='{{teacher.nikeImg}}'></image>
+          <image mode='aspectFill' src='{{teacher.nikeImg}}'></image>
         </view>
         <view class='three-teacher'>
           <view>{{teacher.name}}</view>

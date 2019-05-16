@@ -1,0 +1,21 @@
+<block wx:if="{{currentTab == 0}}">
+  <view class='works-info' wx:for='{{studentWorks}}' wx:key="{{index}}">
+    <view class='works-title'>
+      <text>{{item.title}}</text>
+    </view>
+    <view class='works-img'>
+        <image mode='aspectFill' wx:for="{{item.image}}" wx:for-item="dImg" wx:key="{{index}}" bindtap='showImg' data-src='{{dImg}}' data-list="{{item.image}}" src='{{dImg}}'></image>
+    </view>
+  </view>
+</block>
+
+<block wx:elif="{{currentTab == 1}}">
+  <view class='works-info' wx:for='{{weddingWorks}}' wx:key="{{index}}">
+    <view class='works-title'>
+      <text>{{item.title}}</text>
+    </view>
+    <view class='works-img'>
+        <image mode='aspectFill' wx:for="{{item.image}}" wx:for-item="dImg" wx:key="{{index}}" bindtap='showImg' data-src='{{dImg}}' data-list="{{item.image}}" src='{{dImg}}'></image>
+    </view>
+  </view>
+</block>

@@ -1,5 +1,5 @@
 <view class='course-div' wx:for='{{courseAll}}' bindtap='goToNext' data-item="{{item}}"wx:key="index">
-  <view class='course-img'><image src='{{item.img}}'></image></view>
+  <view class='course-img'><image mode='aspectFill' src='{{item.img}}'></image></view>
   <view class='course-body'>
   <view></view>
     <view class='course-title'>{{item.title}}</view>
@@ -9,5 +9,4 @@
       <text class='course-three'>已售：{{item.sold}}</text>
     </view>
   </view>
-  
 </view>

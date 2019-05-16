@@ -1,7 +1,7 @@
 <scroll-view scroll-x class='boss' scroll-left="50">
   <view class='teacher-div' wx:for="{{teacherAll}}" wx:key="index">
     <view class='teacher-img'>
-      <image src='{{item.nikeImg}}'></image>
+      <image mode='aspectFill' src='{{item.nikeImg}}'></image>
     </view>
     <view class='teacher-name'>
       <view>{{item.name}}</view>

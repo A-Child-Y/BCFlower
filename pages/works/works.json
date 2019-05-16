@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "作品展示",
-  "usingComponents": {}
+  "usingComponents": {
+    "all-works":"../component/all-works/all-works"
+  }
 }
