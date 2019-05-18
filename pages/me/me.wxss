@@ -1,21 +1,48 @@
 /**index.wxss**/
+page{
+  background-color: #f6f6f6;
+}
+.me-view{
+  background-color: #fff;
+  height: 220rpx;
+  line-height: 220rpx;
+}
 .userinfo {
+  margin-left: 30rpx;
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
   border-radius: 50%;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+  color: #000;
+  margin-left: 40rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.me-one{
+  height: 160rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+  line-height: 160rpx;
+}
+.me-one:last-of-type{
+  margin-bottom: 30rpx;
+}
+.me-one > view{
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.me-one image{
+  height: 50rpx;
+  width: 50rpx;
+}
+.me-one text{
+  font-size: 35rpx;
+  margin-left: 20rpx;
 }

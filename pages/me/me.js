@@ -4,18 +4,39 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    nickUrl:'',
+    nickName:''
   },
   //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
+  bindViewTap: function(e) {
+    let pid = e.currentTarget.id
+    if (pid == '0'){
+      app.user = e.currentTarget.dataset.user
+      wx.navigateTo({
+        url: '../meinfo/meinfo',
+      })
+    }else if(pid == '1'){
+      wx.navigateTo({
+        url: '../cooperation/cooperation',
+      })
+    }else if(pid == '2'){
+      wx.navigateTo({
+        url: '../about/about',
+      })
+    }
+  },
+  onShow:function(){
+    this.setData({
+      nickUrl:app.nickUrl,
+      nickName:app.nickName
     })
   },
   onLoad: function () {
+    app.nickUrl = ''
+    app.nickName = ''
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,

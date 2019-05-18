@@ -1,0 +1,16 @@
+<!--pages/cooperation/cooperation.wxml-->
+<view>
+  <view class='cooper-one'>
+    <view><image src='../../image/cooperation-me.png'></image></view>
+  </view>
+
+  <view class='cooper-two'>
+    <view>承接婚礼宴会-生日派对-店铺开业-派对轰趴</view>
+    <view>做花艺我们是专业的</view>
+  </view>
+  <view class='cooper-three'>
+      <view>BC花派 版权所有</view>
+      <view>Copyright © 2012-2019 BC Flower Studio</view>
+      <view>All Rights Reserved</view>
+    </view>
+</view>

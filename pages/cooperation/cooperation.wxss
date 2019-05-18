@@ -1,0 +1,29 @@
+/* pages/cooperation/cooperation.wxss */
+page{
+  background-color: #fff;
+}
+
+.cooper-one view{
+  height: 300rpx;
+  width: 300rpx;
+  margin: 60rpx auto;
+  border-radius: 10%;
+}
+.cooper-one image{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+.cooper-two{
+  margin-top: 120rpx;
+  text-align: center;
+  font-size: 35rpx;
+  padding: 10rpx;
+  line-height: 80rpx;
+}
+.cooper-three{
+  font-size: 22rpx;
+  color: gray;
+  text-align: center;
+  margin-top: 53%;
+}

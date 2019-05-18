@@ -1,13 +1,30 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
+<view>
+  <view class="me-view">
+  <view class="userinfo" bindtap='bindViewTap' id='0' data-user="{{userInfo}}">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <image mode='aspectFill' class="userinfo-avatar" src="{{nickUrl?nickUrl: userInfo.avatarUrl}}" mode="cover"></image>
+
+      <block wx:if='{{!nickName}}'>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </block>
+      <block wx:else>
+        <text class="userinfo-nickname">{{nickName}}</text>
+      </block>  
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+</view>
+  <view class='me-one' bindtap='bindViewTap' id='1'>
+    <view>
+      <image src='../../image/cooperation.png'></image>
+      <text>商业合作</text>
+    </view>
+  </view>
+  <view class='me-one' bindtap='bindViewTap' id='2'>
+    <view>
+      <image src='../../image/about.png'></image>
+      <text>关于我们</text>
+    </view>
   </view>
 </view>

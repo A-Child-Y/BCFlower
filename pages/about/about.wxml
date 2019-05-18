@@ -1,0 +1,17 @@
+<!--pages/about/about.wxml-->
+<view class='about-view'>
+    <view class='about-one'>
+      <view><image src='../../image/bc.jpg'></image></view>
+      <view>BC花派</view>
+      <view>郑州林宇文化传播有限公司</view>
+    </view>
+    <view class='about-two'>
+    <!-- 不一样的风格，不一样的配色，不断的创新，不断的突破，打破以往的传统模式，带你诠释不一样的花艺\n愿这一路繁花烂漫\n -->
+      <text>阳光正好，微风不燥，你眼角带笑\n一路花开花落，云卷云舒\n我们仍怀揣最初的梦想奋力前行</text>
+    </view>
+    <view class='about-three'>
+      <view>BC花派 版权所有</view>
+      <view>Copyright © 2012-2019 BC Flower Studio</view>
+      <view>All Rights Reserved</view>
+    </view>
+</view>

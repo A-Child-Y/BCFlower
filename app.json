@@ -4,8 +4,11 @@
     "pages/works/works",
     "pages/me/me",
     "pages/info/info",
-    "pages/experience/experience"
-   
+    "pages/experience/experience",
+    "pages/meinfo/meinfo",
+    "pages/about/about",
+    "pages/cooperation/cooperation",
+    "pages/upname/upname"
   ],
   "window": {
     "backgroundTextStyle": "light",

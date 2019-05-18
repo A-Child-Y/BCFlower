@@ -1,0 +1,18 @@
+<!--pages/meinfo/meinfo.wxml-->
+<view class='me-info-view'>
+  <view class='me-info' bindtap='updateImage'>
+    <view>头像</view>
+    <view class='me-info-img'><image mode='aspectFill' src='{{upImg?upImg: nickUrl}}' ></image></view>
+    <view><image src='../../image/right.png'></image></view>
+  </view>
+  <view class='me-info' bindtap='updateName'>
+    <view>昵称</view>
+    <block wx:if="{{!upName}}">
+      <view class='me-info-name'>{{nickName}}</view>
+    </block>
+    <block wx:else>
+      <view class='me-info-name'>{{upName}}</view>
+    </block>
+    <view><image src='../../image/right.png'></image></view>
+  </view>
+</view>

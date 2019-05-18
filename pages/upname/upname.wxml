@@ -1,0 +1,9 @@
+<!--pages/upname/upname.wxml-->
+
+
+<view>
+  <form bindsubmit='formSubmit'>
+      <input class='up-input' name='upNickName' focus='true' placeholder='{{nickName}}'></input>
+      <button form-type='submit' hover-class='none' class='up-button'>保存</button>
+  </form>
+</view>
