@@ -12,6 +12,8 @@ Page({
     showColor:''
   },
   formSubmit: function(e){
+    var myreg = /^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[0-9]{1}))+\d{8})$/;
+
     if(!e.detail.value.phone){
       this.setData({
         hide:'请输入手机号',
@@ -19,6 +21,13 @@ Page({
         showColor:'0'
       })
       
+    } else if (e.detail.value.phone.length != 11 || !myreg.test(e.detail.value.phone)){
+      this.setData({
+        hide: '请输入正确的手机号',
+        show: 'block',
+        showColor: '0'
+      })
+    
     } else if (!e.detail.value.nikename){
       this.setData({
         hide:'请输入姓名',
